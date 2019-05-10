@@ -2,6 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
+Angular, Docker, docker-composeを使った例その02.
+
+- ユーザー名を入力して1文字以上の入力があるとボタンが押せる.
+- ボタンを押すとユーザー名が消える.
+- bindの練習.
+
+## Usage
+```bash
+git clone git@github.com:solareenlo/angular-assignment02.git
+cd angular-assignment02
+docker-compose up -d
+# コンテナ内で作業するには以下を入力する.
+docker-compose exec angular sh
+```
+で, 任意のブラウザで`localhost:4202`を開く.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
